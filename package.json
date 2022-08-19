@@ -1,6 +1,6 @@
 {
   "name": "@boneswapfi/core",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "license": "MIT",
   "types": "./types/index.ts",
   "description": "Core contracts for the BoneSwap protocol",
@@ -43,7 +43,7 @@
     "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
-    "@boneswapfi/sdk": "^0.0.12",
+    "@boneswapfi/sdk": "^0.0.16",
     "@boringcrypto/boring-solidity": "boringcrypto/BoringSolidity#e06e943",
     "@nomiclabs/hardhat-ethers": "^2.0.0",
     "@nomiclabs/hardhat-solhint": "^2.0.0",
