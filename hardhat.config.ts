@@ -125,7 +125,7 @@ const config: HardhatUserConfig = {
     overwrite: false,
     runOnCompile: true,
   },
-  typechain: {
+
     outDir: "types",
     target: "ethers-v5",
   },
